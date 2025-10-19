@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PriceCompare Live — Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>PriceCompare Live</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="register.html">Register</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-bar">
+      <input id="search" placeholder="Search any product (e.g., iPhone 14, headphones, jeans)"/>
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <section id="results" class="grid"></section>
+  </main>
+
+  <template id="card-template">
+    <article class="card">
+      <img class="thumb" src="" alt="" />
+      <div class="card-body">
+        <h3 class="title"></h3>
+        <p class="source"></p>
+        <p class="price"></p>
+        <a class="buy" target="_blank" href="">View</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

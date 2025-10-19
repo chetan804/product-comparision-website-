@@ -1,0 +1,18 @@
+*{box-sizing:border-box;font-family:system-ui,Segoe UI,Roboto,Arial}
+body{margin:0;background:#f3f4f6;color:#111}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;background:#0b74da;color:white}
+.site-header nav a{color:white;margin-left:12px;text-decoration:none}
+.search-bar{display:flex;gap:8px;padding:16px}
+.search-bar input{flex:1;padding:10px;border-radius:6px;border:1px solid #ccc}
+.search-bar button{padding:10px 14px;border-radius:6px;border:none;background:#0b74da;color:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;padding:16px}
+.card{background:white;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06);overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;height:160px;object-fit:cover}
+.card-body{padding:12px;flex:1;display:flex;flex-direction:column}
+.card-body .title{margin:0 0 8px 0;font-size:15px}
+.card-body .source{font-size:12px;color:#666;margin-bottom:8px}
+.card-body .price{font-weight:700;margin-top:auto}
+.card-body .buy{margin-top:8px;display:inline-block;text-decoration:none;background:#0b74da;color:white;padding:8px 10px;border-radius:6px}
+.auth{max-width:420px;margin:48px auto;padding:20px;background:white;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.auth input{width:100%;padding:10px;margin:8px 0;border-radius:6px;border:1px solid #ccc}
+.auth button{padding:10px 14px;border-radius:6px;border:none;background:#0b74da;color:white}
